@@ -1,0 +1,16 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "description",
+  "main": "index.js",
+  "scripts": {
+    "web:dev": "vite web",
+    "rust:dev": "cargo watch -i .gitignore -i \"pkg/*\" -s \"wasm-pack build --target web\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^2.9.13"
+  }
+}
